@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dialed In – Practice exams for Android</title>
+<meta name="description" content="Dialed In is an offline practice-exam app for PMP candidates: original questions with every answer choice explained, case sets, timed mock exams and spaced review.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --navy-deep: #090f21; --navy: #14213d; --amber: #f5a524; --blue: #2449c4; --ink: #111827; --muted: #5b6474; --paper: #f7f8fa; --line: #e1e5ec; }
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: var(--ink); background: var(--paper); margin: 0; }
+  header { background: linear-gradient(135deg, var(--navy-deep), var(--navy) 55%, #26386b); color: #fff; padding: 56px 20px 64px; }
+  .wrap { max-width: 920px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .brand img { width: 72px; height: 72px; border-radius: 18px; }
+  h1 { font-size: clamp(2.2rem, 7vw, 3.4rem); margin: 0; letter-spacing: -0.01em; }
+  h1 span { color: var(--amber); }
+  .tag { font-size: 1.25rem; color: #d5dfef; margin: 18px 0 0; }
+  .sub { color: #b4c4dc; margin: 8px 0 0; }
+  .soon { display: inline-block; margin-top: 24px; padding: 12px 22px; border-radius: 12px; border: 1px solid #ffffff55; color: #fff; font-weight: 600; }
+  main { padding: 40px 20px 64px; }
+  h2 { color: var(--navy); margin-top: 40px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; padding: 0; list-style: none; }
+  .grid li { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .grid strong { display: block; color: var(--navy); margin-bottom: 4px; }
+  .shots { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 8px; }
+  .shots img { height: 460px; border-radius: 18px; border: 1px solid var(--line); }
+  .note { background: #fff; border-left: 4px solid var(--amber); border-radius: 0 12px 12px 0; padding: 14px 18px; color: var(--muted); }
+  footer { border-top: 1px solid var(--line); padding: 24px 20px 48px; color: var(--muted); font-size: 0.95rem; }
+  a { color: var(--blue); }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #e6e9ef; --muted: #a3acbc; --paper: #0b0f17; --line: #283142; }
+    h2, .grid strong { color: #8fa9ff; }
+    .grid li, .note { background: #151b26; }
+    a { color: #8fa9ff; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <img src="icon.png" alt="Dialed In app icon">
+      <h1>Dialed <span>In</span></h1>
+    </div>
+    <p class="tag">Practice for PMP&reg; candidates.</p>
+    <p class="sub">An offline practice-exam app for Android.</p>
+    <span class="soon">Coming soon to Google Play</span>
+  </div>
+</header>
+
+<main class="wrap">
+  <p>Dialed In is a clean, focused practice app for people preparing for the PMP&reg; exam. It is built on the July 2026 exam outline: People 33%, Process 41%, Business Environment 26%, with a case section first.</p>
+
+  <h2>What's inside</h2>
+  <ul class="grid">
+    <li><strong>Every answer explained</strong>Each choice comes with a reason, right or wrong, plus the key idea and a link to the related guide.</li>
+    <li><strong>Timed mock exams</strong>Mini, half and full length. Case section first, it locks at the first break, timed breaks and live pacing.</li>
+    <li><strong>Case sets</strong>Longer scenarios with exhibits, followed by a linked group of questions.</li>
+    <li><strong>Spaced review</strong>Questions come back just before you would forget them, tuned by how sure you were.</li>
+    <li><strong>Readiness by domain</strong>An estimate from your own results, with weak spots and pacing analysis.</li>
+    <li><strong>Quick guides</strong>One for every task in the outline, plus formulas with worked examples and exam strategy.</li>
+  </ul>
+
+  <h2>A look at the app</h2>
+  <div class="shots">
+    <img src="shot-home.png" alt="Home screen with today's plan and a readiness estimate">
+    <img src="shot-mock.png" alt="A timed mock exam question with the clock and pace">
+    <img src="shot-results.png" alt="Mock exam results by domain and approach">
+  </div>
+  <p>One purchase. No ads, no subscription, no account.</p>
+
+  <h2>Private and offline</h2>
+  <p>No account, no ads and no tracking. Everything works without an internet connection, and your progress stays on your device. Read the <a href="privacy.html">privacy policy</a>.</p>
+
+  <h2>Please note</h2>
+  <p class="note">Dialed In is practice, not a training course. It does not provide the education hours required to apply for the exam, and it does not guarantee a pass. Readiness estimates and mock scores are based on this app's questions only and are not official scores. Dialed In is an independent study tool. It is not affiliated with, endorsed by, or sponsored by Project Management Institute, Inc. (PMI). Questions are original practice items and are not actual exam questions. PMP, CAPM, and PMBOK are registered marks of Project Management Institute, Inc.</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    Support: <a href="mailto:Sales@midtekpower.com">Sales@midtekpower.com</a> · <a href="privacy.html">Privacy policy</a><br>
+    Midwest Solutions LLC. Google Play is a trademark of Google LLC.
+  </div>
+</footer>
+</body>
+</html>
